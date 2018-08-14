@@ -10,8 +10,12 @@ import org.uqbar.commons.model.annotations.Observable
 class MenuApp {
 	Usuario usuarioSeleccionado
 	RepoUsuario repoUsuarios = new RepoUsuario()
-
+	
 	def getUsuarios() {
 		repoUsuarios.usuarios
 	}
+}
+
+class MenuGestionUsuarios{
+	
 }
